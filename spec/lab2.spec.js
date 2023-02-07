@@ -4,7 +4,7 @@
     const theRealRandom = Math.random;
     let i = 0;
     function fake() {
-      if (i < nums.length) {
+      if (i < nums.length){
         return nums[i++];
       } else {
         return theRealRandom();
